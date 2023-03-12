@@ -13,13 +13,9 @@ ogrenciler.extend(["Cengiz Baylan","İsmet Yılmaz"])
 print(ogrenciler)
 
 # 4.Soru
-print(ogrenciler[0])
-print(ogrenciler[1])
-print(ogrenciler[2])
-print(ogrenciler[3])
-print(ogrenciler[4])
-print(ogrenciler[5])
-print(ogrenciler[6])
+for i in range(len(ogrenciler)):
+    print(ogrenciler[i])
+
 
 # 5.Soru
 print(ogrenciler.index("Kemal Ünlü"))
